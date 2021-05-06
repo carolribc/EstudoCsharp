@@ -25,21 +25,15 @@ namespace app4_1
             
             if (pessoinha != null) {
                 Console.WriteLine("Pessoa encontrada!");
+                Console.WriteLine();
+                Console.WriteLine("dese");
+                //comentario
 
-                string resposta1 = "";
+            }  else {   
+                Console.Write("Pessoa não encontrada! ");
+                
+            }
 
-                do{
-                    Console.WriteLine();
-                    Console.Write("Deseja mudar o nome? (S/N)");
-                    resposta1 = Console.ReadLine();
-                    if (resposta1 == "S") {
-                        do {
-                            Console.WriteLine();
-                            Console.WriteLine("Digite o nome: ");
-                            pessoinha.NomeCompleto = Console.ReadLine();
-                        } while (String.IsNullOrWhiteSpace(pessoinha.NomeCompleto));
-                    }
-                } while (resposta1 != "S" && resposta1 != "N");
 
                 
                 do{
@@ -85,10 +79,7 @@ namespace app4_1
             app.ImprimirLista();
             } 
             
-            else {   
-                Console.Write("Pessoa não encontrada! ");
-                
-            }
+           
         }
     }
 }
