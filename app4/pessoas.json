@@ -1,0 +1,21 @@
+[
+    {
+    "NomeCompleto":"Aline Ferreira da Silva",
+    "DataNascimento":"30/03/1996",
+    "Email":"aline.silva@gmail.com",
+    "Telefone":"(21) 98765-4321"
+    },
+
+    {
+    "NomeCompleto":"Débora Nascimento Souza",
+    "DataNascimento":"14/07/1995",
+    "Email":"debora.nascimento@gmail.com",
+    "Telefone":"(21) 92555-0063"
+    },
+    
+    {"NomeCompleto":"Caroline Ribeiro Caetano",
+    "DataNascimento":"03/09/1995",
+    "Email":"carolribeiro822@gmail.com",
+    "Telefone":"21980838109"
+    }
+]
